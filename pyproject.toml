@@ -1,0 +1,17 @@
+[project]
+name = "day07-2a202601455-doduccuong"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=1.5.9",
+    "openai>=2.52.0",
+    "python-dotenv>=1.2.2",
+    "sentence-transformers>=5.6.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
