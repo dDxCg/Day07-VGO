@@ -1,0 +1,171 @@
+{
+  "embedding_model": "C:/Users/hn745/.cache/huggingface/hub/models--intfloat--multilingual-e5-large/snapshots/3d7cfbdacd47fdda877c5cd8a79fbcc4f2a574f3",
+  "embedding_dimension": 1024,
+  "chunker": "RecursiveChunker(chunk_size=800)",
+  "collection_size": 108,
+  "relevant_top3_count": 5,
+  "benchmarks": [
+    {
+      "id": 1,
+      "query": "ĐHQGHN đang triển khai bao nhiêu chương trình đào tạo đại học, thạc sĩ và tiến sĩ?",
+      "gold_answer": "190 chương trình đại học, 198 chương trình thạc sĩ và 118 chương trình tiến sĩ.",
+      "expected_doc_id": "vnu-training-overview",
+      "metadata_filter": null,
+      "relevant_in_top3": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "doc_id": "vnu-training-overview",
+          "chunk_index": 0,
+          "score": 0.901904,
+          "summary": "# Giới thiệu chung Giới thiệu chung về công tác đào tạo Giới thiệu chung Công tác đào tạo Đại học Quốc gia Hà Nội (ĐHQGHN) là trung tâm đào tạo, nghiên cứu khoa học, công nghệ đa ngành, đa lĩnh vực chất lượng cao, được Nhà nước ưu tiên đầu tư phát triển. Hiện…"
+        },
+        {
+          "rank": 2,
+          "doc_id": "vnu-training-overview",
+          "chunk_index": 3,
+          "score": 0.866953,
+          "summary": "ĐHQGHN tiên phong phối hợp với các trường đại học nước ngoài có uy tín cao để đào tạo thạc sỹ về chính sách công, quản lý khoa học công nghệ, quản lý xã hội thuộc Đề án 165 “Đào tạo bồi dưỡng cán bộ lãnh đạo, quản lý ở nước ngoài bằng nguồn ngân sách nhà nước…"
+        },
+        {
+          "rank": 3,
+          "doc_id": "vnu-training-overview",
+          "chunk_index": 6,
+          "score": 0.853091,
+          "summary": "Quá trình xây dựng và phát triển, ĐHQGHN đã từng bước khẳng định uy tín cao trong đào tạo nguồn nhân lực chất lượng cao, trình độ cao, bồi dưỡng nhân tài, từng bước tiếp cận chuẩn quốc tế, đáp ứng yêu cầu phát triển kinh tế - xã hội và hội nhập kinh tế quốc t…"
+        }
+      ],
+      "agent_answer": "# Giới thiệu chung Giới thiệu chung về công tác đào tạo Giới thiệu chung Công tác đào tạo Đại học Quốc gia Hà Nội (ĐHQGHN) là trung tâm đào tạo, nghiên cứu khoa học, công nghệ đa ngành, đa lĩnh vực chất lượng cao, được Nhà nước ưu tiên đầu tư phát triển. Hiện tại, ĐHQGHN đang triển khai 190 chương trình đào tạo đại học và 198 chương trình đào tạo thạc sỹ và 118 chương trình đào tạo tiến sỹ thuộc lĩnh vực khoa học tự nhiên, công nghệ, khoa học xã hội nhân văn, kinh tế, giáo dục, ngoại ngữ… Tỷ lệ quy mô đào tạo sau đại học/tổng quy mô đào tạo chính quy đạt 33.88%. Quy mô đào tạo đại học chính quy được giữ ổn định. Hàng năm, ĐHQGHN đào tạo trên 5.000 cử nhân khoa học, trong đó 13.1% sinh viên tài năng, chất lượng cao, tiên tiến, đạt chuẩn quốc tế; 2.400 thạc sỹ và 200 tiến sỹ. ĐHQGHN tiên phong phối hợp với các trường đại học nước ngoài có uy tín cao để đào tạo thạc sỹ về chính sách công, quản lý khoa học công nghệ, quản lý xã hội thuộc Đề án 165 “Đào tạo bồi dưỡng cán bộ lãnh đạo, quản lý ở nước ngoài bằng nguồn ngân sách nhà nước” do Ban Tổ chức Trung ương chủ trì.ĐHQGHN là đơn vị tiên phong trong việc nghiên cứu xây dựng và triển khai áp dụng bộ tiêu chuẩn kiểm định chất lượng đào…"
+    },
+    {
+      "id": 2,
+      "query": "Theo tài liệu được đánh dấu hết hiệu lực, quỹ học bổng khuyến khích học tập tối thiểu bằng bao nhiêu phần trăm tổng thu học phí?",
+      "gold_answer": "Tối thiểu 15% tổng thu học phí từ sinh viên đại học hệ chính quy.",
+      "expected_doc_id": "vnu-scholarship-management-regulation",
+      "metadata_filter": null,
+      "relevant_in_top3": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "doc_id": "vnu-scholarship-management-regulation",
+          "chunk_index": 14,
+          "score": 0.85683,
+          "summary": "1.2.1. Đối với học sinh trung học phổ thông chuyên - Cơ sở đào tạo lập dự toán ngân sách hàng năm chi đủ cho 30% học sinh được nhận học bổng khuyến khích học tập. - Kết thúc mỗi học kỳ, thủ trưởng các đơn vị đào tạo căn cứ vào kết quả học tập và rèn luyện của…"
+        },
+        {
+          "rank": 2,
+          "doc_id": "vnu-scholarship-management-regulation",
+          "chunk_index": 2,
+          "score": 0.856279,
+          "summary": "1.Học bổng khuyến khích học tập từ nguồn ngân sách của Nhà nước là loại học bổng hỗ trợ sinh hoạt phí cho học sinh sinh viên (HSSV) được thực hiện trên cơ sở Nghị định số 49/2010/NĐ-CP ngày 14/5/2010 của Chính phủ Quy định về miễn, giảm học phí, hỗ trợ chi ph…"
+        },
+        {
+          "rank": 3,
+          "doc_id": "vnu-scholarship-management-regulation",
+          "chunk_index": 3,
+          "score": 0.846936,
+          "summary": "2. Quỹ học bổng: Quỹ học bổng khuyến khích học tập được bố trí tối thiểu bằng 15% tổng thu học phí từ sinh viên đại học hệ chính quy. Đối với ngành sư phạm, quỹ học bổng được trích tối thiểu bằng 15% từ nguồn học phí do nhà nước cấp bù. 3. Định mức cấp học bổ…"
+        }
+      ],
+      "agent_answer": "Đối với học sinh trung học phổ thông chuyên - Cơ sở đào tạo lập dự toán ngân sách hàng năm chi đủ cho 30% học sinh được nhận học bổng khuyến khích học tập. - Kết thúc mỗi học kỳ, thủ trưởng các đơn vị đào tạo căn cứ vào kết quả học tập và rèn luyện của học sinh, xét và quyết định cấp học bổng từ loại xuất sắc trở xuống đến hết chỉ tiêu theo nguồn kinh phí cho phép, lưu ý tới sự cân đối về số lượng giữa các khối lớp 10, 11, 12. Đối với sinh viên đại học hệ chính quy - Quỹ học bổng khuyến khích học tập được bố trí tối thiểu bằng 15% tổng thu học phí từ sinh viên đại học hệ chính quy. Đối với ngành sư phạm, quỹ học bổng được trích tối thiểu bằng 15% từ nguồn học phí do nhà nước cấp bù. 1.Học bổng khuyến khích học tập từ nguồn ngân sách của Nhà nước là loại học bổng hỗ trợ sinh hoạt phí cho học sinh sinh viên (HSSV) được thực hiện trên cơ sở Nghị định số 49/2010/NĐ-CP ngày 14/5/2010 của Chính phủ Quy định về miễn, giảm học phí, hỗ trợ chi phí học tập và cơ chế thu, sử dụng học phí đối với cơ sở giáo dục thuộc hệ thống giáo dục quốc dân từ năm học 2010-2011 đến năm học 2014-2015; Quyết định số 44/2007/BGD&ĐT ngày 15/8/2007 của Bộ Giáo dục & Đào tạo về học bổng khuyến khích học tập đối…"
+    },
+    {
+      "id": 3,
+      "query": "Đại học Quốc gia Hà Nội có 01 trường Trung học Cơ sở và 04 trường Trung học Phổ thông nào?",
+      "gold_answer": "ĐHQGHN có 01 trường THCS và 04 trường THPT.",
+      "expected_doc_id": "vnu-secondary-and-high-school-education",
+      "metadata_filter": null,
+      "relevant_in_top3": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "doc_id": "vnu-secondary-and-high-school-education",
+          "chunk_index": 0,
+          "score": 0.908812,
+          "summary": "# Đào tạo hệ THCS và THPT ĐÀO TẠO HỆ TRUNG HỌC CƠ SỞ VÀ TRUNG HỌC PHỔ THÔNG Đào tạo hệ THCS và THPT ĐÀO TẠO HỆ TRUNG HỌC CƠ SỞ VÀ TRUNG HỌC PHỔ THÔNG Đại học Quốc gia Hà Nội có 01 trường Trung học Cơ sở (THCS) là Trường THCS Ngoại ngữ (thuộc Trường ĐH Ngoại n…"
+        },
+        {
+          "rank": 2,
+          "doc_id": "vnu-secondary-and-high-school-education",
+          "chunk_index": 9,
+          "score": 0.837302,
+          "summary": "Trường là cơ sở giáo dục và đào tạo công lập trong hệ thống giáo dục quốc dân. Trường được tổ chức và hoạt động theo quy định hiện hành của Bộ GD&ĐT. Trường chịu sự chỉ đạo, quản lí trực tiếp về công tác tổ chức, đội ngũ giáo viên, cơ sở vật chất, tài chính,…"
+        },
+        {
+          "rank": 3,
+          "doc_id": "vnu-secondary-and-high-school-education",
+          "chunk_index": 5,
+          "score": 0.832331,
+          "summary": "Hàng năm, Nhà trường tuyển sinh đầu cấp khoảng 150 chỉ tiêu. Đối tượng tuyển sinh trên phạm vi toàn quốc. 1.2. Trường THPT chuyên Khoa học Tự nhiên Tháng 9/1965, cố Thủ tướng Phạm Văn Đồng ra quyết định thành lập một lớp Toán “đặc biệt” dành cho học sinh THPT…"
+        }
+      ],
+      "agent_answer": "ĐÀO TẠO HỆ TRUNG HỌC CƠ SỞ VÀ TRUNG HỌC PHỔ THÔNG Đại học Quốc gia Hà Nội có 01 trường Trung học Cơ sở (THCS) là Trường THCS Ngoại ngữ (thuộc Trường ĐH Ngoại ngữ) và 04trường Trung học Phổ thông (THPT) là:Trường THPT chuyên Khoa học Tự nhiên (thuộc Trường ĐH Khoa học Tự nhiên), Trường THPT chuyên Ngoại ngữ (thuộc Trường ĐH Ngoại ngữ), Trường THPT chuyên Khoa học Xã hội và Nhân văn (thuộc Trường ĐH Khoa học Xã hội và Nhân văn), Trường THPT Khoa học giáo dục (thuộc Trường ĐH Giáo dục). Trường là cơ sở giáo dục và đào tạo công lập trong hệ thống giáo dục quốc dân. Trường chịu sự chỉ đạo, quản lí trực tiếp về công tác tổ chức, đội ngũ giáo viên, cơ sở vật chất, tài chính, công tác tuyển sinh và đào tạo của Trường ĐH Khoa học xã hội và Nhân văn; chịu sự quản lí của Sở GD&ĐT Hà Nội về thực hiện chương trình, kế hoạch giáo dục, tổ chức thi tốt nghiệp, cấp bằng tốt nghiệp. Quy mô tuyển sinh hàng năm khoảng gần 200 học sinh. Đối tượng tuyển sinh là học sinh trên địa bàn Thành phố Hà Nội và các tỉnh thành trên cả nước bằng hình thức thi tuyển. Trường THPT Khoa học Giáo dục Hàng năm, Nhà trường tuyển sinh đầu cấp khoảng 150 chỉ tiêu. Đối tượng tuyển sinh trên phạm vi toàn quốc. Trường THPT c…"
+    },
+    {
+      "id": 4,
+      "query": "Chương trình Quỹ UOB cho sinh viên vay tối đa bao nhiêu, lãi suất và thời hạn trả nợ thế nào?",
+      "gold_answer": "Tối đa 10.000.000 đồng, lãi suất 0%; bắt đầu trả sau 6 tháng kể từ khi tốt nghiệp và trả dần trong 30 tháng, theo 30 kỳ hàng tháng.",
+      "expected_doc_id": "vnu-student-loans",
+      "metadata_filter": {
+        "audience": "student"
+      },
+      "relevant_in_top3": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "doc_id": "vnu-student-loans",
+          "chunk_index": 0,
+          "score": 0.910694,
+          "summary": "# Hỗ trợ sinh viên vay vốn Vay vốn không lãi suất từ Quỹ UOB để thanh toán học phí Vay vốn Vay vốn không lãi suất từ Quỹ UOB để thanh toán học phí Nhằm hỗ trợ sinh viên học tập, Đại học Quốc gia Hà Nội (ĐHQGHN) và Ngân hàng United Overseas Bank (UOB) chi nhán…"
+        },
+        {
+          "rank": 2,
+          "doc_id": "vnu-student-loans",
+          "chunk_index": 3,
+          "score": 0.862326,
+          "summary": "3. Đơn xin vay để thanh toán học phí (theo mẫu của Quỹ UOB) - nhận tại nơi làm thủ tục nhập học. 4. Các giấy tờ nếu có: Giấy chứng nhận được hưởng chế độ ưu tiên chính sách xã hội; giấy chứng nhận giải thưởng, danh hiệu, thành tích đạt được. 1. Bản photo có c…"
+        },
+        {
+          "rank": 3,
+          "doc_id": "vnu-student-loans",
+          "chunk_index": 1,
+          "score": 0.855383,
+          "summary": "- Phương thức cho vay: Số tiền cho vay sẽ được chuyển vào tài khoản của đơn vị đào tạo - nơi SV đang theo học. - Thời hạn thanh toán nợ: Sau 6 tháng kể từ khi tốt nghiệp ra trường và trả dần cho đến hết trong vòng 30 tháng (nếu quá hạn trên, do điều kiện khó…"
+        }
+      ],
+      "agent_answer": "# Hỗ trợ sinh viên vay vốn Vay vốn không lãi suất từ Quỹ UOB để thanh toán học phí Hồ Chí Minh đã ký biên bản ghi nhớ về việc triển khai Chương trình vay vốn không lãi suất từ Quỹ hỗ trợ sinh viên Việt Nam của UOB (gọi tắt là Quỹ UOB) đối với sinh viên ĐHQGHN. Thông tin về Chương trình cho sinh viên (SV) vay vốn từ Quỹ UOB như sau: Chương trình vay vốn - Mức cho vay tối đa: 10.000.000 đồng/SV/trong thời gian học đại học. - Lãi suất: 0 %. Đơn xin vay để thanh toán học phí (theo mẫu của Quỹ UOB) - nhận tại nơi làm thủ tục nhập học. Đơn vin vay để thanh toán học phí (theo mẫu của Quỹ UOB); - Thời hạn thanh toán nợ: Sau 6 tháng kể từ khi tốt nghiệp ra trường và trả dần cho đến hết trong vòng 30 tháng (nếu quá hạn trên, do điều kiện khó khăn, SV có thể làm đơn xin để Quỹ xem xét). - Phương thức trả nợ: Số tiền đã vay được thanh toán hàng tháng trong 30 kỳ bằng nhau cho đến khi trả hết nợ. Có thể trả nợ trước thời hạn quy định, nếu muốn."
+    },
+    {
+      "id": 5,
+      "query": "Những sinh viên nào là đối tượng tham dự Ngày hội việc làm Samsung của ĐHQGHN?",
+      "gold_answer": "Sinh viên năm thứ 3 và năm cuối thuộc nhóm ngành Kinh tế–Luật–Ngoại ngữ hoặc Khoa học–Kỹ thuật–Công nghệ tại các đơn vị đào tạo của ĐHQGHN.",
+      "expected_doc_id": "vnu-career-support",
+      "metadata_filter": null,
+      "relevant_in_top3": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "doc_id": "vnu-career-support",
+          "chunk_index": 0,
+          "score": 0.90089,
+          "summary": "# Tư vấn hỗ trợ việc làm Thông tin tư vấn - hỗ trợ việc làm cho sinh viên của ĐHQGHN Tư vấn, hỗ trợ việc làm Thông tin tư vấn - hỗ trợ việc làm cho sinh viên của ĐHQGHN ĐHQGHN phối hợp với Công ty TNHH Samsung Electronics Việt Nam tổ chức ngày hội việc làm vớ…"
+        },
+        {
+          "rank": 2,
+          "doc_id": "vnu-career-support",
+          "chunk_index": 1,
+          "score": 0.893448,
+          "summary": "Với mục tiêu hiện thực hóa định hướng phối hợp với các trường đại học ở khu vực Hà Nội nói chung, ĐHQGHN nói riêng để hỗ trợ việc làm cho sinh viên nhằm thu hút lực lượng lao động sau tốt nghiệp sẽ “đầu quân” vào làm việc tại Công ty TNHH Sam Sung Việt Nam, “…"
+        },
+        {
+          "rank": 3,
+          "doc_id": "vnu-career-support",
+          "chunk_index": 2,
+          "score": 0.89302,
+          "summary": "Ngày hội việc làm Samsung năm 2011 đã diễn ra tại ĐHQGHN ngày 09/04/2011. Theo thông tin từ phía Sam Sung Việt Nam, trong năm 2010 và nửa đầu năm 2011 vừa qua, Công ty đã tuyển dụng được gần 100 vị trí là cử nhân tốt nghiệp từ các đơn vị đào tạo thuộc ĐHQGHN.…"
+        }
+      ],
+      "agent_answer": "# Tư vấn hỗ trợ việc làm Thông tin tư vấn - hỗ trợ việc làm cho sinh viên của ĐHQGHN Tư vấn, hỗ trợ việc làm ĐHQGHN phối hợp với Công ty TNHH Samsung Electronics Việt Nam tổ chức ngày hội việc làm với Samsung hàng năm. Đối tượng tham dự chương trình là sinh viên năm thứ 3 và năm cuối các ngành: Kinh tế - Luật - Ngoại ngữ (quản trị nhân lực, quản trị doanh nghiệp, kế toán, luật, tiếng Hàn Quốc, tiếng Trung Quốc, tiếng Anh...); Khoa học - Kỹ thuật - Công nghệ (Điện, điện tử, cơ khí, công nghệ thông tin, tự động hóa, môi trường, hóa chất, vật liệu) thuộc các đơn vị đào tạo của ĐHQGHN. Với mục tiêu hiện thực hóa định hướng phối hợp với các trường đại học ở khu vực Hà Nội nói chung, ĐHQGHN nói riêng để hỗ trợ việc làm cho sinh viên nhằm thu hút lực lượng lao động sau tốt nghiệp sẽ “đầu quân” vào làm việc tại Công ty TNHH Sam Sung Việt Nam, “Ngày hội việc làm Samsung” hàng năm sẽ cung cấp cho các ứng viên những thông tin cơ bản nhất như mô hình tổ chức, cơ cấu nhận sự, các vị trí tuyển dụng, mức lương, cơ hội thăng tiến, các tiêu chí, điều kiện để tham dự học bổng Samsung... Ngày hội việc làm Samsung năm 2011 đã diễn ra tại ĐHQGHN ngày 09/04/2011. Theo thông tin từ phía Sam Sung Việt Na…"
+    }
+  ]
+}
