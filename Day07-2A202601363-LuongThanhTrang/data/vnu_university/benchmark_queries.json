@@ -1,0 +1,37 @@
+[
+  {
+    "id": "Q1",
+    "query": "Trong học kỳ chính, sinh viên được đăng ký tối thiểu và tối đa bao nhiêu tín chỉ so với khối lượng trung bình?",
+    "gold_answer": "Tối thiểu không ít hơn 2/3 và tối đa không vượt quá 3/2 khối lượng trung bình một học kỳ theo kế hoạch học tập chuẩn, không tính học kỳ cuối khóa.",
+    "expected_doc_id": "vnu-undergraduate-training-regulation-3626",
+    "metadata_filter": {"audience": "student"}
+  },
+  {
+    "id": "Q2",
+    "query": "Sinh viên được rút bớt học phần trong thời hạn nào và có được hoàn lại học phí không?",
+    "gold_answer": "Trong 2 tuần từ đầu học kỳ chính hoặc 1 tuần từ đầu học kỳ phụ thì được chấp nhận và hoàn lại học phí; quá hạn, học phần vẫn giữ và không được hoàn học phí.",
+    "expected_doc_id": "vnu-undergraduate-training-regulation-3626",
+    "metadata_filter": {"category": "undergraduate-training-regulation"}
+  },
+  {
+    "id": "Q3",
+    "query": "Các ngưỡng điểm trung bình chung tích lũy nào có thể khiến sinh viên bị cảnh báo học vụ?",
+    "gold_answer": "Dưới 1,20 ở năm thứ nhất; dưới 1,40 ở năm thứ hai; dưới 1,60 ở năm thứ ba; hoặc dưới 1,80 ở các năm tiếp theo và cuối khóa.",
+    "expected_doc_id": "vnu-undergraduate-training-regulation-3626",
+    "metadata_filter": {"department": "academic-affairs"}
+  },
+  {
+    "id": "Q4",
+    "query": "Điểm trung bình tích lũy tối thiểu để xét tốt nghiệp hệ chuẩn và chương trình tài năng, chất lượng cao là bao nhiêu?",
+    "gold_answer": "Hệ chuẩn cần điểm trung bình chung tích lũy từ 2,00; chương trình tài năng, chất lượng cao cần từ 2,50.",
+    "expected_doc_id": "vnu-undergraduate-training-regulation-3626",
+    "metadata_filter": {"audience": "student"}
+  },
+  {
+    "id": "Q5",
+    "query": "Theo chương trình UOB giai đoạn 2011-2012, mức vay tối đa và thời hạn trả nợ là gì?",
+    "gold_answer": "Mức vay tối đa 10.000.000 đồng mỗi sinh viên trong thời gian học; bắt đầu trả sau 6 tháng kể từ khi tốt nghiệp và trả dần trong tối đa 30 tháng.",
+    "expected_doc_id": "vnu-uob-tuition-loan",
+    "metadata_filter": {"status": "historical"}
+  }
+]

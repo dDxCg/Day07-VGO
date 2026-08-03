@@ -1,0 +1,186 @@
+{
+  "backend": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "chunker": "recursive",
+  "results": [
+    {
+      "id": "Q1",
+      "query": "Trong học kỳ chính, sinh viên được đăng ký tối thiểu và tối đa bao nhiêu tín chỉ so với khối lượng trung bình?",
+      "gold_answer": "Tối thiểu không ít hơn 2/3 và tối đa không vượt quá 3/2 khối lượng trung bình một học kỳ theo kế hoạch học tập chuẩn, không tính học kỳ cuối khóa.",
+      "expected_doc_id": "vnu-undergraduate-training-regulation-3626",
+      "metadata_filter": {
+        "audience": "student"
+      },
+      "top3_match": true,
+      "results": [
+        {
+          "rank": 1,
+          "score": 0.8304311169307464,
+          "doc_id": "vnu-undergraduate-training-regulation-3626",
+          "chunk_index": 48,
+          "title": "Quy chế đào tạo đại học tại Đại học Quốc gia Hà Nội",
+          "content": "1. Số tín chỉ đăng ký học trong mỗi học kỳ chính (không bao gồm các học\nphần giáo dục thể chất, giáo dục quốc phòng - an ninh, kỹ năng bổ trợ, cải thiện\nđiểm, tự chọn tự do) đảm bảo điều kiện khối lượng đăng ký tối thiểu không ít hơn\n2/3 khối lượng trung bình một học kỳ theo kế hoạch học tập chuẩn; khối lượng tối\nđa không vượt quá 3/2 khối lượng trung bình một học kỳ theo kế hoạch học tập\nchuẩn (không tính học kỳ cuối khóa).\n18\nTrường hợp sinh viên có nguyện vọng đăng ký học ít hơn số tín chỉ tối thiểu\ntrong một học kỳ phải được sự đồng ý của thủ trưởng đơn vị đào tạo.\nĐối với học kỳ phụ: Thủ trưởng đơn vị đào tạo quy định.\n2. Đăng ký học phần"
+        },
+        {
+          "rank": 2,
+          "score": 0.7843871351573815,
+          "doc_id": "vnu-undergraduate-training-regulation-3626",
+          "chunk_index": 130,
+          "title": "Quy chế đào tạo đại học tại Đại học Quốc gia Hà Nội",
+          "content": "ký trong học kỳ kế tiếp. Trường hợp loại học lực của sinh viên được xác định vào\nthời điểm sau khi sinh viên đã đăng ký học phần, sinh viên phải rút bớt học phần\ntrong giới hạn khối lượng quy định.\n2. Sau mỗi học kỳ, căn cứ vào điểm trung bình chung học kỳ, học lực của\nsinh viên được xếp thành các loại sau:\na) Xuất sắc: Điểm trung bình chung học kỳ từ 3,60 đến 4,00\nb) Giỏi: Điểm trung bình chung học kỳ từ 3,20 đến 3,59\nc) Khá: Điểm trung bình chung học kỳ từ 2,50 đến 3,19\nd) Trung bình: Điểm trung bình chung học kỳ từ 2,00 đến 2,49\nđ) Yếu: Điểm trung bình chung học kỳ đạt dưới 2,0 nhưng chưa thuộc trường\nhợp bị buộc thôi học.\nChương VIII\nCÔNG NHẬN TỐT NGHIỆP\nĐiều 46. Điều kiện tốt nghiệp"
+        },
+        {
+          "rank": 3,
+          "score": 0.7640556730628814,
+          "doc_id": "vnu-undergraduate-training-regulation-3626",
+          "chunk_index": 58,
+          "title": "Quy chế đào tạo đại học tại Đại học Quốc gia Hà Nội",
+          "content": "a) Theo nhu cầu và khả năng lựa chọn của sinh viên;\nb) Sau khi đã đăng ký học phần, hạng học lực của sinh viên được xác định\nlà phải rút bớt học phần trong giới hạn khối lượng quy định;\nc) Điểm trung bình chung học kỳ dưới 2,00 nhưng chưa thuộc diện bị buộc\nthôi học, sinh viên được đăng ký học không quá 18 tín chỉ trong mỗi học kỳ chính.\n2. Việc rút bớt học phần chỉ được chấp nhận trong 2 tuần kể từ đầu học kỳ\nchính, 1 tuần kể từ đầu học kỳ phụ và được trả lại học phí. Ngoài thời hạn trên, học\nphần vẫn được giữ nguyên trong phiếu đăng ký học, nếu sinh viên không học sẽ\nphải nhận điểm F và không được trả lại học phí.\n3. Điều kiện rút bớt các học phần đã đăng ký (sau khi có danh sách lớp"
+        }
+      ]
+    },
+    {
+      "id": "Q2",
+      "query": "Sinh viên được rút bớt học phần trong thời hạn nào và có được hoàn lại học phí không?",
+      "gold_answer": "Trong 2 tuần từ đầu học kỳ chính hoặc 1 tuần từ đầu học kỳ phụ thì được chấp nhận và hoàn lại học phí; quá hạn, học phần vẫn giữ và không được hoàn học phí.",
+      "expected_doc_id": "vnu-undergraduate-training-regulation-3626",
+      "metadata_filter": {
+        "category": "undergraduate-training-regulation"
+      },
+      "top3_match": true,
+      "results": [
+        {
+          "rank": 1,
+          "score": 0.7988163153908933,
+          "doc_id": "vnu-undergraduate-training-regulation-3626",
+          "chunk_index": 58,
+          "title": "Quy chế đào tạo đại học tại Đại học Quốc gia Hà Nội",
+          "content": "a) Theo nhu cầu và khả năng lựa chọn của sinh viên;\nb) Sau khi đã đăng ký học phần, hạng học lực của sinh viên được xác định\nlà phải rút bớt học phần trong giới hạn khối lượng quy định;\nc) Điểm trung bình chung học kỳ dưới 2,00 nhưng chưa thuộc diện bị buộc\nthôi học, sinh viên được đăng ký học không quá 18 tín chỉ trong mỗi học kỳ chính.\n2. Việc rút bớt học phần chỉ được chấp nhận trong 2 tuần kể từ đầu học kỳ\nchính, 1 tuần kể từ đầu học kỳ phụ và được trả lại học phí. Ngoài thời hạn trên, học\nphần vẫn được giữ nguyên trong phiếu đăng ký học, nếu sinh viên không học sẽ\nphải nhận điểm F và không được trả lại học phí.\n3. Điều kiện rút bớt các học phần đã đăng ký (sau khi có danh sách lớp"
+        },
+        {
+          "rank": 2,
+          "score": 0.775855918223348,
+          "doc_id": "vnu-undergraduate-training-regulation-3626",
+          "chunk_index": 136,
+          "title": "Quy chế đào tạo đại học tại Đại học Quốc gia Hà Nội",
+          "content": "chương trình đào tạo thứ nhất và kết quả học tập các học phần được tích lũy trong\nthời gian học chương trình đào tạo thứ hai.\n7. Những sinh viên có kết quả học tập toàn khóa đạt hạng xuất sắc hoặc giỏi,\nhạng tốt nghiệp sẽ bị hạ một hạng nếu bị kỷ luật từ mức cảnh cáo trở lên trong thời\ngian học hoặc khối lượng của các học phần phải học lại vượt quá 5% so với tổng\nsố tín chỉ quy định cho toàn chương trình.\n8. Phụ lục văn bằng cấp kèm theo bằng tốt nghiệp được quy định thống nhất\ntrong toàn Đại học Quốc gia Hà Nội về hình thức và nội dung, trong đó điểm đánh\ngiá của từng học phần ghi theo mức điểm chữ, bao gồm cả kết quả các học phần tự"
+        },
+        {
+          "rank": 3,
+          "score": 0.7558452977524621,
+          "doc_id": "vnu-undergraduate-training-regulation-3626",
+          "chunk_index": 122,
+          "title": "Quy chế đào tạo đại học tại Đại học Quốc gia Hà Nội",
+          "content": "Trừ các trường hợp đặc biệt do Thủ trưởng đơn vị đào tạo quy định, trong\nhọc kỳ kế tiếp, sinh viên nhận mức đánh giá I phải trả xong các nội dung kiểm tra\nbộ phận còn nợ để được chuyển điểm. Trường hợp sinh viên chưa trả nợ và chưa\nchuyển điểm nhưng không rơi vào trường hợp bị buộc thôi học thì vẫn được học\ntiếp ở các học kỳ kế tiếp.\n6. Việc xếp loại theo mức đánh giá X được áp dụng đối với những học phần\nmà Phòng Đào tạo chưa nhận được kết quả thi kết thúc học phần của sinh viên từ\ngiảng viên phụ trách học phần.\nĐiều 42. Đánh giá kết quả học tập\nKết quả học tập của sinh viên được đánh giá sau mỗi học kỳ chính theo các\ntiêu chí sau:"
+        }
+      ]
+    },
+    {
+      "id": "Q3",
+      "query": "Các ngưỡng điểm trung bình chung tích lũy nào có thể khiến sinh viên bị cảnh báo học vụ?",
+      "gold_answer": "Dưới 1,20 ở năm thứ nhất; dưới 1,40 ở năm thứ hai; dưới 1,60 ở năm thứ ba; hoặc dưới 1,80 ở các năm tiếp theo và cuối khóa.",
+      "expected_doc_id": "vnu-undergraduate-training-regulation-3626",
+      "metadata_filter": {
+        "department": "academic-affairs"
+      },
+      "top3_match": true,
+      "results": [
+        {
+          "rank": 1,
+          "score": 0.7945488589443912,
+          "doc_id": "vnu-undergraduate-training-regulation-3626",
+          "chunk_index": 127,
+          "title": "Quy chế đào tạo đại học tại Đại học Quốc gia Hà Nội",
+          "content": "tập của học kỳ phụ được tính vào kết quả học tập của học kỳ chính ngay trước học\nkỳ phụ.\n1. Cảnh báo học vụ\nĐơn vị đào tạo thực hiện cảnh báo học vụ theo từng học kỳ cho sinh viên có\nkết quả học tập như sau:\na) Điểm trung bình chung tích luỹ đạt dưới 1,20 đối với sinh viên năm thứ\nnhất, dưới 1,40 đối với sinh viên năm thứ hai, dưới 1,60 đối với sinh viên năm thứ\nba hoặc dưới 1,80 đối với sinh viên các năm tiếp theo và cuối khoá;\nb) Điểm trung bình chung học kỳ đạt dưới 0,80 đối với học kỳ đầu của khóa\nhọc, dưới 1,00 đối với các học kỳ tiếp theo;\nc) Tổng số tín chỉ của các học phần bị điểm F còn tồn đọng tính từ đầu khoá"
+        },
+        {
+          "rank": 2,
+          "score": 0.7635443464387336,
+          "doc_id": "vnu-undergraduate-training-regulation-3626",
+          "chunk_index": 98,
+          "title": "Quy chế đào tạo đại học tại Đại học Quốc gia Hà Nội",
+          "content": "khác, trao đổi bài, thảo luận bài trong giờ thi. Sinh viên bị khiển trách khi thi học\nphần nào sẽ bị trừ 25% số điểm đạt được của bài thi học phần đó;\nb) Cảnh cáo: áp dụng đối với sinh viên vi phạm một trong các lỗi:\n- Đã bị khiển trách 1 lần nhưng trong giờ thi học phần đó vẫn tiếp tục vi\nphạm quy định;\n- Trao đổi bài làm, giấy nháp với người khác;\n- Chép bài của người khác. Những bài thi đã có kết luận là giống nhau thì\nxử lý như nhau, trừ trường hợp người bị xử lý có đủ bằng chứng chứng tỏ mình\nthực sự bị quay cóp thì thủ trưởng đơn vị đào tạo có thể xem xét giảm từ mức kỷ\nluật cảnh cáo xuống mức khiển trách.\nSinh viên bị cảnh cáo khi thi học phần nào sẽ bị trừ 50% số điểm đạt được\n36"
+        },
+        {
+          "rank": 3,
+          "score": 0.7635321006275749,
+          "doc_id": "vnu-undergraduate-training-regulation-3626",
+          "chunk_index": 128,
+          "title": "Quy chế đào tạo đại học tại Đại học Quốc gia Hà Nội",
+          "content": "học đến thời điểm xét đã quá 24 tín chỉ hoặc tổng số tín chỉ không đạt trong học kì\nvượt quá 50% khối lượng đăng kí học trong học kì.\nTùy theo đặc điểm của từng đơn vị đào tạo, thủ trưởng đơn vị quy định áp dụng\nmột hoặc hai trong ba điều kiện nêu trên để cảnh báo kết quả học tập của sinh viên và\nquy định số lần cảnh báo học vụ, nhưng không quá 2 lần liên tiếp.\n2. Buộc thôi học\nSau mỗi học kỳ, sinh viên bị buộc thôi học nếu thuộc một trong các trường hợp sau:\na) Có số lần cảnh báo kết quả học tập vượt quá giới hạn theo quy định của Thủ\ntrưởng đơn vị đào tạo;\nb) Vượt quá thời gian tối đa được phép học quy định tại khoản 1, Điều 17 của\nQuy chế này;\n47"
+        }
+      ]
+    },
+    {
+      "id": "Q4",
+      "query": "Điểm trung bình tích lũy tối thiểu để xét tốt nghiệp hệ chuẩn và chương trình tài năng, chất lượng cao là bao nhiêu?",
+      "gold_answer": "Hệ chuẩn cần điểm trung bình chung tích lũy từ 2,00; chương trình tài năng, chất lượng cao cần từ 2,50.",
+      "expected_doc_id": "vnu-undergraduate-training-regulation-3626",
+      "metadata_filter": {
+        "audience": "student"
+      },
+      "top3_match": true,
+      "results": [
+        {
+          "rank": 1,
+          "score": 0.7768554542195698,
+          "doc_id": "vnu-undergraduate-training-regulation-3626",
+          "chunk_index": 135,
+          "title": "Quy chế đào tạo đại học tại Đại học Quốc gia Hà Nội",
+          "content": "ngành chính - ngành phụ, trong bằng ghi tên ngành học chính.\n4. Bản chính bằng tốt nghiệp chỉ cấp một lần, không cấp lại.\n5. Hạng tốt nghiệp được xác định theo điểm trung bình chung tích lũy của\ntoàn khóa học, cụ thể như sau:\na) Xuất sắc: Điểm trung bình chung tích lũy từ 3,60 đến 4,00\nb) Giỏi: Điểm trung bình chung tích lũy từ 3,20 đến 3,59\nc) Khá: Điểm trung bình chung tích lũy từ 2,50 đến 3,19\nd) Trung bình: Điểm trung bình chung tích lũy từ 2,00 đến 2,49.\n6. Hạng tốt nghiệp cho sinh viên học văn bằng thứ hai hoặc học cùng lúc hai\nchương trình đào tạo được xét theo kết quả học tập các học phần được bảo lưu của"
+        },
+        {
+          "rank": 2,
+          "score": 0.7638533640702422,
+          "doc_id": "vnu-scholarship-management-policy",
+          "chunk_index": 12,
+          "title": "Quy định về quản lý và sử dụng học bổng tại Đại học Quốc gia Hà Nội",
+          "content": "- Đối với các khoá đào tạo theo niên chế: Tại học kỳ xét học bổng, kết quả học tập đạt loại xuất sắc (điểm trung bình chung học tập đạt từ 9,0 trở lên), không có điểm thi hoặc kiểm tra dưới 5,0 (tính điểm thi/kiểm tra lần thứ nhất).\n\n- Đối với các khoá đào tạo theo tín chỉ: Tại học kỳ xét học bổng, đảm bảo hoàn thành ít nhất 15 tín chỉ và đạt kết quả học tập loại xuất sắc (điểm trung bình chung tích luỹ đạt từ 3,60 trở lên), không có điểm thi hoặc kiểm tra dưới 5,5 (tính điểm thi/kiểm tra lần thứ nhất).\n\nb. Về kết quả rèn luyện: Được xếp loại xuất sắc.\n\n1.1.2.2. Mức học bổng loại giỏi: 220.000 đồng/người/tháng\n\nDành cho sinh viên đạt các tiêu chuẩn sau:\n\na. Về kết quả học tập:"
+        },
+        {
+          "rank": 3,
+          "score": 0.7534239492194615,
+          "doc_id": "vnu-scholarship-management-policy",
+          "chunk_index": 13,
+          "title": "Quy định về quản lý và sử dụng học bổng tại Đại học Quốc gia Hà Nội",
+          "content": "- Đối với các khoá đào tạo theo niên chế: Tại học kỳ xét học bổng, kết quả học tập đạt loại giỏi (điểm trung bình chung học tập đạt từ 8,0 đến cận 9), không có điểm thi hoặc kiểm tra dưới 5,0 (tính điểm thi/kiểm tra lần thứ nhất).\n\n- Đối với các khoá đào tạo theo tín chỉ: Tại học kỳ xét học bổng, đảm bảo hoàn thành ít nhất 15 tín chỉ và đạt kết quả học tập từ loại giỏi trở lên (điểm trung bình chung tích luỹ đạt từ 3,20 đến 3,59), không có điểm thi hoặc kiểm tra dưới 5,5 (tính điểm thi/kiểm tra lần thứ nhất).\n\nb. Về kết quả rèn luyện: Được xếp từ loại giỏi trở lên.\n\n1.1.2.3. Mức học bổng loại khá: 180.000 đồng/người/tháng\n\nDành cho sinh viên đạt các tiêu chuẩn sau:\n\na. Về kết quả học tập"
+        }
+      ]
+    },
+    {
+      "id": "Q5",
+      "query": "Theo chương trình UOB giai đoạn 2011-2012, mức vay tối đa và thời hạn trả nợ là gì?",
+      "gold_answer": "Mức vay tối đa 10.000.000 đồng mỗi sinh viên trong thời gian học; bắt đầu trả sau 6 tháng kể từ khi tốt nghiệp và trả dần trong tối đa 30 tháng.",
+      "expected_doc_id": "vnu-uob-tuition-loan",
+      "metadata_filter": {
+        "status": "historical"
+      },
+      "top3_match": true,
+      "results": [
+        {
+          "rank": 1,
+          "score": 0.5246710121791629,
+          "doc_id": "vnu-uob-tuition-loan",
+          "chunk_index": 1,
+          "title": "Vay vốn không lãi suất từ Quỹ UOB để thanh toán học phí",
+          "content": "- Mức cho vay: Bằng số tiền học phí phải nộp tại thời điểm cho vay. \n\n- Phương thức cho vay: Số tiền cho vay sẽ được chuyển vào tài khoản của đơn vị đào tạo - nơi SV đang theo học. \n\n- Thời hạn thanh toán nợ: Sau 6 tháng kể từ khi tốt nghiệp ra trường và trả dần cho đến hết trong vòng 30 tháng (nếu quá hạn trên, do điều kiện khó khăn, SV có thể làm đơn xin để Quỹ xem xét).\n\n- Phương thức trả nợ: Số tiền đã vay được thanh toán hàng tháng trong 30 kỳ bằng nhau cho đến khi trả hết nợ. Có thể trả nợ trước thời hạn quy định, nếu muốn.\n\n2. Tiêu chuẩn vay vốn\n\n2.1. Sinh viên trúng tuyển kỳ thi tuyển sinh hệ đại học chính quy vào ĐHQGHN năm 2011 (trừ trường ĐH Giáo dục)"
+        },
+        {
+          "rank": 2,
+          "score": 0.5109950577955684,
+          "doc_id": "vnu-uob-tuition-loan",
+          "chunk_index": 0,
+          "title": "Vay vốn không lãi suất từ Quỹ UOB để thanh toán học phí",
+          "content": "# Vay vốn không lãi suất từ Quỹ UOB để thanh toán học phí\n\nVay vốn\n\nVay vốn không lãi suất từ Quỹ UOB để thanh toán học phí\n\nNhằm hỗ trợ sinh viên học tập, Đại học Quốc gia Hà Nội (ĐHQGHN) và Ngân hàng United Overseas Bank (UOB) chi nhánh TP. Hồ Chí Minh đã ký biên bản ghi nhớ về việc triển khai Chương trình vay vốn không lãi suất từ Quỹ hỗ trợ sinh viên Việt Nam của UOB (gọi tắt là Quỹ UOB) đối với sinh viên ĐHQGHN.\n\nThông tin về Chương trình cho sinh viên (SV) vay vốn từ Quỹ UOB như sau:\n\n1. Chương trình vay vốn\n\n- Mục đích cho vay: Thanh toán học phí đại học.\n\n- Mức cho vay tối đa: 10.000.000 đồng/SV/trong thời gian học đại học.\n\n- Lãi suất: 0 %."
+        },
+        {
+          "rank": 3,
+          "score": 0.4840252941996946,
+          "doc_id": "vnu-uob-tuition-loan",
+          "chunk_index": 5,
+          "title": "Vay vốn không lãi suất từ Quỹ UOB để thanh toán học phí",
+          "content": "4. Thời hạn nộp hồ sơ và tổ chức ký vay vốn (dự kiến): 2 đợt/1 năm học, vào khoảng giữa các học kỳ trong năm. Thời gian cụ thể sẽ được thông báo bằng công văn tới các đơn vị đào tạo. \n\nSV có nguyện vọng vay vốn có thể liên hệ trực tiếp và gửi hồ sơ về Phòng Chính trị và Công tác Sinh viên của đơn vị đào tạo -nơi SV đang học hoặc Phòng 405 - Ban Chính trị và Công tác HSSV, ĐHQGHN (144 Xuân Thủy, Cầu Giấy, Hà Nội) theo địa chỉ:\n\n[Đã lược bỏ thông tin liên hệ cá nhân khỏi corpus. Sinh viên cần tra cứu kênh liên hệ chính thức hiện hành của đơn vị đào tạo.]\n\n\n\n\n\n\n\n>> Tải bản PDF thông tin về việc vay vốn UOB"
+        }
+      ]
+    }
+  ]
+}
