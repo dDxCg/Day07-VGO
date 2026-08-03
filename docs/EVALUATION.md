@@ -10,6 +10,7 @@ Trong lab này, chúng ta không chỉ hỏi "Nó chạy không?" mà hỏi **"C
 
 - **Độ liên quan Top-k (Top-k Relevance)**: Trong k kết quả trả về, bao nhiêu kết quả thực sự liên quan đến câu hỏi?
 - **Phân bố Điểm (Score Distribution)**: Điểm tương tự (similarity score) có phân biệt rõ giữa kết quả tốt và kết quả nhiễu không?
+  - `EmbeddingStore.search()` trả `score` trong khoảng **[0, 1]** (1.0 = trùng hướng embedding hoàn toàn / liên quan cao nhất, 0.5 = trực giao/không liên quan, gần 0 = trái nghĩa). Đây là cosine similarity gốc `[-1, 1]` được scale lại bằng `(cosine + 1) / 2` — áp dụng cho cả backend in-memory và ChromaDB (collection tạo với `hnsw:space: cosine`).
 - **Điểm Đánh giá (Benchmark Score)**: Mỗi câu hỏi 2 điểm — top-3 kết quả liên quan (relevant) + câu trả lời chính xác = 2, thiếu = 1/0.
 - **Mục tiêu**: Top-3 kết quả (results) nên có ít nhất 2 kết quả liên quan trực tiếp.
 

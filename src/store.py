@@ -18,6 +18,11 @@ def _restore_metadata(metadata: dict) -> dict:
     return {} if _EMPTY_METADATA_PLACEHOLDER in metadata else metadata
 
 
+def _to_relevance_score(cosine_similarity: float) -> float:
+    """Rescale cosine similarity from [-1, 1] to [0, 1]; 1.0 = identical direction (most relevant)."""
+    return (cosine_similarity + 1) / 2
+
+
 class EmbeddingStore:
     """
     A vector store for text chunks.
@@ -46,7 +51,9 @@ class EmbeddingStore:
                 client.delete_collection(name=collection_name)
             except Exception:
                 pass
-            self._collection = client.create_collection(name=collection_name)
+            self._collection = client.create_collection(
+                name=collection_name, metadata={"hnsw:space": "cosine"}
+            )
             self._use_chroma = True
         except Exception:
             self._use_chroma = False
@@ -63,7 +70,7 @@ class EmbeddingStore:
     def _search_records(self, query: str, records: list[dict[str, Any]], top_k: int) -> list[dict[str, Any]]:
         query_embedding = self._embedding_fn(query)
         scored = [
-            {**record, "score": _dot(query_embedding, record["embedding"])}
+            {**record, "score": _to_relevance_score(_dot(query_embedding, record["embedding"]))}
             for record in records
         ]
         scored.sort(key=lambda r: r["score"], reverse=True)
@@ -112,7 +119,7 @@ class EmbeddingStore:
                         "id": result["ids"][0][i],
                         "content": result["documents"][0][i],
                         "metadata": _restore_metadata(result["metadatas"][0][i]),
-                        "score": -result["distances"][0][i],
+                        "score": _to_relevance_score(1 - result["distances"][0][i]),
                     }
                 )
             return records
